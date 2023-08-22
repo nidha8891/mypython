@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+}
+a{
+    color: white;
+    text-decoration: none;
+/* }
+#id_tag{
+    color: rgb(42, 62, 80);
+}
+#offer-link{
+    color: brown;
+} */
+.heading{
+    color: white;
+    text-decoration: beige;
+}

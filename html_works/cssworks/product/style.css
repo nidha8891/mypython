@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lato:ital,wght@0,300;1,100&display=swap');
+
+body{
+    margin: 0;
+    /* height: 100vh; */
+    background-color: background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    ;
+}
+.container{
+    width: 80%;
+    background-color:white;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    width: 43%;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-header{
+    border-bottom: 1px solid black;
+    color: brown;
+    font-family: 'Borel', cursive;
+}
+.card-content{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    font-family: 'Borel', cursive;
+    font-family: 'Lato', sans-serif;
+}
+.card-button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+button{
+    border: 0;
+    color: white;
+    padding: auto;
+}
+
+.buy{
+    height: 30px;
+    width: 75px;
+    background-color: rgb(62, 151, 47);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.price{
+    background-color: grey;
+    height: 30px;
+    width: 73px;
+}
+button :hover{
+    background-color: black;
+
+}
+ 
